@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Nanum+Gothic:wght@800&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    box-sizing: border-box;
+}
+body{
+    background-color:#6b4e45;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    padding: .5rem 4.5rem  ;
+    z-index: 100;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.5);
+    background-color: rgb(58, 52, 52);
+
+}
+.navbar .navbar-brand{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #D2042D !important;
+}
+#navbarSupportedContent a:hover{
+  border-bottom: 2px solid #D2042D;
+}
+#navbarSupportedContent button:hover{
+    background-color: #D2042D;
+    width: 5em;
+
+}
+/* ------------------------nav------------------------------------------------ */
+h1,h3,h4{
+    font-family:Nanum+Gothic;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+   
+}
+#home{
+ background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(img/organic-spices-bg.jpg);
+ background-size: cover;
+ flex-direction: column;
+}
+#home h1{
+    font-size: 6em;
+    color: #D2042D;
+}
+#home p{
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    color: white;
+}
+#home .input-group{
+    width: 35%;
+    height: 3em;
+}
+#about{
+    background-color: rgb(240, 238, 238);
+    height: auto;
+}
+#abouth1{
+    font-size: 4em;
+    
+}
+#product{
+    height: auto;
+}
+p{
+    font-family:Bitter;
+}
+.card{
+    
+    background-color: white !important;
+    box-shadow: 10px 15px 15px rgba(0,0,0,.3);
+    border-radius: 1em !important;
+    justify-items: center;
+    align-items: center;
+    transition: .2s
+}
+.card:hover{
+    box-shadow:  inset 10px 15px 15px rgba(0,0,0,.3);
+     transition: .2s    
+}
+#Contact{
+    height: auto;
+    background-color: rgb(237, 236, 236)
+}
+.box{
+    width: 80%;
+}
+#Contact input,textarea{
+    margin-top: 1em;
+    padding: 1em;
+    font-family:Bitter ;
+    font-size: 1em;
+}
+footer{
+    margin-top: 1em;
+    height: 3em;
+}
